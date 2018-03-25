@@ -26,6 +26,8 @@ install(FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/rapidxml_utils.hpp
     DESTINATION include/rapidxml)
 
+add_subdirectory(test)
+
 # Packaging
 find_package(Git)
 if(GIT_FOUND)
